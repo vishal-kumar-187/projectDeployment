@@ -1,0 +1,68 @@
+* {
+    font-family: "Courier New" ,serif,cursive;
+}
+
+h1,
+h3 {
+    color: #b92b27;
+}
+
+#login {
+    background-color: white;
+}
+
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote{
+    background-color:green ;
+    color:aliceblue;
+}  
+
+
+  /* descendant slector */
+
+  /* isme multiple level tk ja sakte hai */
+
+  .post a{
+      color:purple;
+      background-color: yellow;
+  }
+
+  nav ul li{
+      color:hotpink;
+  }
+
+  nav ul li a{
+      color: blue;
+}
+
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+div>input{
+    /* in child slector we can go only one level  */
+    background-color: white;
+}
+
+input[type="text"] {
+    color:red;
+}
+
+input[type="password"] {
+    color:green;
+}
+
+input[type] {
+    background-color: ghostwhite;
+}
+
